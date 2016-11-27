@@ -46,6 +46,7 @@ public class UserDaoLocal implements UserDao {
 			
 			ResultSet rs = preparedStatement.executeQuery();
 			//Затестить и написать это
+			//SQL ERROR?
 
 		} catch (SQLException e) {
 			e.printStackTrace();
