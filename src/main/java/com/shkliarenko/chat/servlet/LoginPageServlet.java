@@ -1,4 +1,4 @@
-package main.java.com.shkliarenko.chat;
+package main.java.com.shkliarenko.chat.servlet;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
