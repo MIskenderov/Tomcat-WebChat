@@ -9,10 +9,10 @@ form {
 	border: 5px white;
 	background: #404040; /* Цвет фона */
 	padding: 20px; /* Поля вокруг текста */
-	margin-top: 200px;
+	margin-top: 15%;
 	margin-bottom: 0px;
-	margin-right: 300px;
-	margin-left: 300px;
+	margin-right: 30%;
+	margin-left: 30%;
 	border-radius: 8px;
 }
 

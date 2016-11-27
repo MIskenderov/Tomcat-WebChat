@@ -19,15 +19,13 @@
 
 	<form action="register" method="post">
 		<div class="form-group">
-			<label for="login">Username</label>
+			<center><label for="login">Registration form</label></center>
 			<div class="input-group">
 				<span class="input-group-addon"><span
 					class="glyphicon glyphicon-user"></span></span> <input type="text"
 					class="form-control" id="login" name="login" placeholder="Username">
-			</div>
-		</div>
-		<div class="form-group has-feedback">
-			<label for="pass">Password</label>
+			</div><br>
+					<div class="form-group has-feedback">
 			<div class="input-group">
 				<span class="input-group-addon"><span
 					class="glyphicon glyphicon-lock"></span></span> <input type="password"
@@ -38,11 +36,18 @@
 				<span class="input-group-addon"><span
 					class="glyphicon glyphicon-lock"></span></span> <input type="password"
 					class="form-control" id="pass-repeat" name="passrepeat" placeholder="Repeat Password">
+			</div><br>
+			<div class="input-group">
+				<span class="input-group-addon"><span
+					class="glyphicon glyphicon-envelope"></span></span> 
+					<input type="email" class="form-control" id="email" name="email" placeholder="E-mail">
 			</div>
 		</div>
 		<div class="btn-group">
 			<button type="submit" class="btn btn-primary">Register</button>
 		</div>
+		</div>
+
 	</form>
 </div>
 	<!-- Looking for source of this page? Contact me: vk.com/id20444094 or 0637129869 -->

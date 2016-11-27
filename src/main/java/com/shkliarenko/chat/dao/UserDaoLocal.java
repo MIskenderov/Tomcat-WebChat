@@ -29,7 +29,7 @@ public class UserDaoLocal implements UserDao {
 	}
 
 	@Override
-	public boolean newUser(User u) {
+	public void newUser(User u) {
 		
 		try {
 			DriverManager.registerDriver(new com.mysql.jdbc.Driver());
@@ -44,14 +44,11 @@ public class UserDaoLocal implements UserDao {
 			preparedStatement.setString(2, u.getPassHash());
 			preparedStatement.setString(3, u.getEmail());
 			
-			ResultSet rs = preparedStatement.executeQuery();
-			//Затестить и написать это
-			//SQL ERROR?
+			preparedStatement.executeQuery();
 
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		return false;
 	}
 
 }
