@@ -10,10 +10,11 @@ public class User {
 		
 	}
 	
-	public User(long id, String login, String passHash){
+	public User(long id, String login, String passHash, String email){
 		this.id = id;
 		this.login = login;
 		this.passHash = passHash;
+		this.email = email;
 	}
 	
 	public long getId() {
