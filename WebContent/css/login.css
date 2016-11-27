@@ -6,7 +6,7 @@ body {
 
 form {
 	color: white; border-radius : 8px;
-	border: 5px white;
+	border: 6px white;
 	background: #404040; /* Цвет фона */
 	padding: 20px; /* Поля вокруг текста */
 	margin-top: 15%;
