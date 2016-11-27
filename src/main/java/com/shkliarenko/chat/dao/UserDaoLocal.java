@@ -45,6 +45,7 @@ public class UserDaoLocal implements UserDao {
 			preparedStatement.setString(3, u.getEmail());
 			
 			ResultSet rs = preparedStatement.executeQuery();
+			//Затестить и написать это
 
 		} catch (SQLException e) {
 			e.printStackTrace();

@@ -15,8 +15,8 @@
 </head>
 <body>
 	<!-- Looking for source of this page? Contact me: vk.com/id20444094 or 0637129869 -->
+	<a href="https://github.com/Bodyash/Tomcat-WebChat"><img src="http://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Github-icon.png" width="100"></a>
 <div class="container">
-
 	<form action="login" method="post">
 		<center>
 			<h1>Welcome to WebChat</h1>
@@ -43,6 +43,7 @@
 		</div>
 	</form>
 </div>
+
 	<!-- Looking for source of this page? Contact me: vk.com/id20444094 or 0637129869 -->
 </body>
 </html>
